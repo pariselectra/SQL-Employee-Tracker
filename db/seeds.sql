@@ -2,7 +2,7 @@ INSERT INTO departments (id, department_name)
 VALUES ("1", "Executive"),
        ("2", "Sales"),
        ("3", "Accounting"),
-       ("4", "Technoloogy");
+       ("4", "Technology");
 
 INSERT INTO roles (id, title, salary, manager, departments_id)
 VALUES ("101", "CEO", "$850,000", "the board", 1 ),
@@ -16,21 +16,21 @@ VALUES ("101", "CEO", "$850,000", "the board", 1 ),
        ("402", "Junior Software Engineer", "$93,000", "Senior Software Engineer", 4);
 
 INSERT INTO employees (id, first_name, last_name, roles_id)
-VALUES ("10101", "Jason", "Kart", 1),
-       ("10201", "Chris", "Barn", 2),
-       ("10301", "Rebecca", "Berger", 3),
-       ("20101", "Miles", "Greenberg", 4),
-       ("20201", "Andy", "Sykes", 5),
-       ("20202", "Rachel", "Castle", 5),
-       ("20203", "Carter", "Miller", 5),
-       ("20204", "Michael", "Jacobs", 5),
-       ("30101", "Ari", "Aabad", 6),
-       ("30201", "Sadler", "Ross", 7),
-       ("30202", "Payton", "Woodley", 7),
-       ("30203", "Sharanya", "Akuhla", 7),
-       ("30204", "Sela", "Greys", 7),
-       ("40101", "Warren", "Jace", 8),
-       ("40102", "Lisa", "Williams", 8),
-       ("40103", "Ezra", "Gold", 8),
-       ("40201", "Perez", "Olivarez", 9),
-       ("40202", "Thomas", "Hinch", 9);
+VALUES ("10101", "Jason", "Kart", 101),
+       ("10201", "Chris", "Barn", 102),
+       ("10301", "Rebecca", "Berger", 103),
+       ("20101", "Miles", "Greenberg", 201),
+       ("20201", "Andy", "Sykes", 202),
+       ("20202", "Rachel", "Castle", 202),
+       ("20203", "Carter", "Miller", 202),
+       ("20204", "Michael", "Jacobs", 202),
+       ("30101", "Ari", "Aabad", 301),
+       ("30201", "Sadler", "Ross", 302),
+       ("30202", "Payton", "Woodley", 302),
+       ("30203", "Sharanya", "Akuhla", 302),
+       ("30204", "Sela", "Greys", 302),
+       ("40101", "Warren", "Jace", 401),
+       ("40102", "Lisa", "Williams", 401),
+       ("40103", "Ezra", "Gold", 401),
+       ("40201", "Perez", "Olivarez", 402),
+       ("40202", "Thomas", "Hinch", 402);

@@ -15,7 +15,9 @@ CREATE TABLE roles (
   salary TEXT NOT NULL,
   manager TEXT NOT NULL,
   departments_id INT NULL,
-  PRIMARY KEY (id)
+  PRIMARY KEY (id),
+  FOREIGN KEY (departments_id)
+  REFERENCES departments(id)
 );
 
 CREATE TABLE employees (
@@ -23,5 +25,7 @@ CREATE TABLE employees (
   first_name TEXT NOT NULL,
   last_name TEXT NOT NULL,
   roles_id INT NULL,
-  PRIMARY KEY (id)
+  PRIMARY KEY (id),
+  FOREIGN KEY (roles_id)
+  REFERENCES roles(id)
 );

@@ -1,4 +1,10 @@
-SELECT department_name
-FROM departments
-FULL OUTER JOIN roles
-ON departments.department_name = roles.departments_id;
+-- SELECT departments_id, department_name
+SELECT *
+FROM roles
+LEFT JOIN departments
+ON roles.departments_id = departments.id;
+
+SELECT *
+FROM employees
+LEFT JOIN roles
+ON employees.roles_id = roles.id;
