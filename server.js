@@ -1,3 +1,5 @@
+// https://github.com/EdenKhaos/12-mysql-employee-tracker
+
 const inquirer = require('inquirer');
 const fs = require('fs');
 const mysql = require('mysql')
